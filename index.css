@@ -8,14 +8,14 @@
 body {
   font-family: "Poiret One", sans-serif;
   font-size: calc(15px + 0.390625vw);
-  
+
   /*   font-family: "Spirax", sans-serif;
  */
 }
 
 header {
   width: 100%;
-  
+
 }
 
 header>nav>ul {
@@ -36,14 +36,14 @@ nav {
 li a {
   text-decoration: none;
   color: #FFFFFF;
-  font-size: calc(60px + 0.390625vw);
+  font-size: calc(45px + 0.390625vw);
   padding-right: 5vw;
   padding-left: 5vw;
   font-family: "Spirax", sans-serif;
 }
 
-.cafe{
-  background-image:url("./assets/hot.jpg");
+.cafe {
+  background-image: url("./assets/hot.jpg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,39 +54,105 @@ li a {
   align-items: center;
 }
 
-.cafe p:nth-child(1){
-  color:#8D0001;
+.cafe p:nth-child(1) {
+  color: #8D0001;
+  font-size: calc(90px + 0.390625vw);
+  font-family: "Spirax", sans-serif;
+  margin-bottom: 2vh;
+}
+
+.cafe p:nth-child(2) {
+  padding: 2vh;
+  background-color: #8D0001;
+  color: white;
+  font-size: calc(15px + 0.390625vw);
+  text-align: center;
+  margin-right: 15vw;
+  width: 60vw;
+}
+
+.cafe p:nth-child(3) {
+  margin: 2vh;
+  padding: 2vh;
+  background-color: #8D0001;
+  color: white;
+  font-size: calc(15px + 0.390625vw);
+  margin-left: 15vw;
+  width: 60vw;
+}
+
+.menu-prices {
+  display: flex;
+  background-color: #171717;
+  width: 50vw;
+  justify-content: space-around;
+  margin-right: 10vw;
+}
+
+.menu-prices ul {
+  list-style-type: none;
+  color: white;
+  padding: 1vh;
+}
+
+.break1{
+  width: 100vw;
+  background-color: red;
+  height: 2vh;
+}
+
+.juisy{
+  background-image: url("./assets/juicy.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.juisy p:nth-child(1) {
+  color: #8D0001;
   font-size: calc(90px + 0.390625vw);
   font-family: "Spirax", sans-serif;
   margin-bottom: 5vh;
 }
 
-.cafe p:nth-child(2){
+.juisy p:nth-child(2) {
   padding: 2vh;
-  background-color:#8D0001;
+  background-color: #8D0001;
   color: white;
   font-size: calc(15px + 0.390625vw);
+  width: 60vw;
+  text-align: center;
+  margin-right: 15vw;
+
 }
 
-.cafe p:nth-child(3){
+.juisy p:nth-child(3) {
   margin: 2vh;
   padding: 2vh;
-  background-color:#8D0001;
+  background-color: #8D0001;
   color: white;
   font-size: calc(15px + 0.390625vw);
+  width: 60vw;
+  text-align: center;
+  margin-left: 15vw;
 }
 
-.menu-prices{
+.juisy-prices{
   display: flex;
   background-color: #171717;
   width: 50vw;
-  justify-content: space-around
+  justify-content: space-around;
+  margin-right: 10vw;
+
 }
 
-.menu-prices ul{
+.juisy-prices ul{
   list-style-type: none;
   color: white;
   padding: 1vh;
-
-
 }
