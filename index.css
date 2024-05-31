@@ -8,16 +8,14 @@
 body {
   font-family: "Poiret One", sans-serif;
   font-size: calc(15px + 0.390625vw);
-
+  
   /*   font-family: "Spirax", sans-serif;
  */
 }
 
-
 header {
   width: 100%;
-  padding: 3rem;
-  background-color: #160A11;
+  
 }
 
 header>nav>ul {
@@ -32,14 +30,63 @@ nav {
   width: 100%;
   overflow: hidden;
   left: 0;
+  background-color: black;
 }
 
 li a {
   text-decoration: none;
   color: #FFFFFF;
-  font-size: calc(65px + 0.390625vw);
+  font-size: calc(60px + 0.390625vw);
   padding-right: 5vw;
   padding-left: 5vw;
   font-family: "Spirax", sans-serif;
+}
+
+.cafe{
+  background-image:url("./assets/hot.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cafe p:nth-child(1){
+  color:#8D0001;
+  font-size: calc(90px + 0.390625vw);
+  font-family: "Spirax", sans-serif;
+  margin-bottom: 5vh;
+}
+
+.cafe p:nth-child(2){
+  padding: 2vh;
+  background-color:#8D0001;
+  color: white;
+  font-size: calc(15px + 0.390625vw);
+}
+
+.cafe p:nth-child(3){
+  margin: 2vh;
+  padding: 2vh;
+  background-color:#8D0001;
+  color: white;
+  font-size: calc(15px + 0.390625vw);
+}
+
+.menu-prices{
+  display: flex;
+  background-color: #171717;
+  width: 50vw;
+  justify-content: space-around
+}
+
+.menu-prices ul{
+  list-style-type: none;
+  color: white;
+  padding: 1vh;
+
 
 }
