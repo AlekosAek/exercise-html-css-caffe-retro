@@ -95,13 +95,13 @@ li a {
   padding: 1vh;
 }
 
-.break1{
+.break1 {
   width: 100vw;
   background-color: red;
   height: 2vh;
 }
 
-.juisy{
+.juisy {
   background-image: url("./assets/juicy.jpg");
   height: 100vh;
   background-size: cover;
@@ -142,7 +142,7 @@ li a {
   margin-left: 15vw;
 }
 
-.juisy-prices{
+.juisy-prices {
   display: flex;
   background-color: #171717;
   width: 50vw;
@@ -151,7 +151,59 @@ li a {
 
 }
 
-.juisy-prices ul{
+.juisy-prices ul {
+  list-style-type: none;
+  color: white;
+  padding: 1vh;
+}
+
+.cosy {
+  background-image: url("./assets/cosy.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.cosy p:nth-child(1) {
+  color: #8D0001;
+  font-size: calc(90px + 0.390625vw);
+  font-family: "Spirax", sans-serif;
+  margin-bottom: 5vh;
+}
+.cosy p:nth-child(2) {
+  padding: 2vh;
+  background-color: #8D0001;
+  color: white;
+  font-size: calc(15px + 0.390625vw);
+  width: 60vw;
+  text-align: center;
+  margin-right: 15vw;
+
+}
+.cosy p:nth-child(3) {
+  margin: 2vh;
+  padding: 2vh;
+  background-color: #8D0001;
+  color: white;
+  font-size: calc(15px + 0.390625vw);
+  width: 60vw;
+  text-align: center;
+  margin-left: 15vw;
+}
+.cosy-prices{
+  display: flex;
+  background-color: #171717;
+  width: 50vw;
+  justify-content: space-around;
+  margin-right: 10vw;
+}
+
+.cosy-prices ul {
   list-style-type: none;
   color: white;
   padding: 1vh;
